@@ -148,9 +148,9 @@ This project demonstrates how to deploy a dynamic web application on AWS using K
 ---
 
 ### Conclusion
--By leveraging AWS EKS, Docker, Kubernetes, and other AWS managed services, this project provides a highly scalable, secure, and cost-efficient solution for hosting a dynamic web application. The use of Kubernetes enables automated deployments, scaling, and management of the application, while AWS services like RDS and S3 ensure that the application's data is stored reliably and securely.
+By leveraging AWS EKS, Docker, Kubernetes, and other AWS managed services, this project provides a highly scalable, secure, and cost-efficient solution for hosting a dynamic web application. The use of Kubernetes enables automated deployments, scaling, and management of the application, while AWS services like RDS and S3 ensure that the application's data is stored reliably and securely.
 
--This setup improves application availability, ensures resilience by running the application in multiple availability zones, and automates many aspects of the infrastructure, making it easier to manage and scale as traffic increases. By integrating AWS Secrets Manager, IAM roles, and security best practices, the application is also secure and adheres to industry standards for cloud-native applications.
+This setup improves application availability, and automates many aspects of the infrastructure, making it easier to manage and scale as traffic increases. By integrating AWS Secrets Manager, IAM roles, and security best practices, the application is also secure and adheres to industry standards for cloud-native applications.
 
 
 
