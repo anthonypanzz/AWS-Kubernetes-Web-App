@@ -24,6 +24,8 @@ This project demonstrates how to deploy a dynamic web application on AWS using K
 - Initialized a Git repository to store all project files and scripts.
 - Pushed the repository to GitHub for version control and collaboration.
 
+---
+
 ### 2. Create AWS VPC with Networking Components
 - **VPC**: Created a Virtual Private Cloud to securely host all resources.
   ![Screenshot 2025-03-16 003955](https://github.com/user-attachments/assets/07b02ec4-4c0a-4aea-b150-89951a512c8f)
@@ -49,7 +51,7 @@ This project demonstrates how to deploy a dynamic web application on AWS using K
 - **RDS Instance**: Provisioned an RDS instance (e.g., MySQL, PostgreSQL) for database storage.
   ![Screenshot 2025-03-16 004239](https://github.com/user-attachments/assets/7b547d15-6a16-4d6f-bc35-916a606c6e13)
 
- 
+--- 
 ### 3. Create Dockerfile
 - Created a Dockerfile to containerize the web application, ensuring all dependencies are packaged within the container.
 ### 4. Build Docker Image
@@ -60,32 +62,34 @@ This project demonstrates how to deploy a dynamic web application on AWS using K
 ![Screenshot 2025-03-16 004718](https://github.com/user-attachments/assets/4b868d34-4501-4820-858c-b34eca880231)
 ![Screenshot 2025-03-16 004734](https://github.com/user-attachments/assets/7de62ef9-b330-4a63-99cd-0129d69e5d2c)
 
-
+---
 ### 5. Push Docker Image to AWS ECR
 - Created an ECR (Elastic Container Registry) repository to store Docker images.
 - Pushed the built Docker image to ECR using the AWS CLI.
   ![Screenshot 2025-03-16 005055](https://github.com/user-attachments/assets/e25ed6a7-4496-4b8a-82b4-4af17e740345)
 ![Screenshot 2025-03-16 005109](https://github.com/user-attachments/assets/7a4c7629-ae91-410c-ba2a-710446ac504c)
 
-
+---
 ### 6. Create IAM Roles with S3 Access
 - Created IAM roles that grant the necessary permissions for accessing AWS resources like S3, which is used for storing static assets.
   ![Screenshot 2025-03-16 005212](https://github.com/user-attachments/assets/8a3e6703-9b7b-4b4b-89fe-41eefe55e6d1)
 ![Screenshot 2025-03-16 005247](https://github.com/user-attachments/assets/efc6cabf-859f-4856-bc15-d2884c8d566a)
 
-
+---
 ### 7. Migrate Data into RDS Using Flyway
 - Utilized **Flyway** for database migration to ensure the RDS instance has the correct schema before application deployment.
 - Configured Flyway scripts to automate schema versioning.
   ![Screenshot 2025-03-17 053547](https://github.com/user-attachments/assets/38b9dbe8-9f4e-4296-9d0f-d1784a6b5e51)
 
 
-
+---
 ### 8. Install Command-Line Tools
 - Installed essential command-line tools to interact with AWS and Kubernetes:
   - **kubectl**: For managing Kubernetes clusters.
   - **eksctl**: For managing AWS EKS clusters.
   - **helm**: For managing Kubernetes applications and deploying Helm charts.
+
+---
 
 ### 9. Store Secrets in AWS Secrets Manager
 - Stored sensitive application data (e.g., database credentials, API keys) in **AWS Secrets Manager**.
@@ -93,7 +97,7 @@ This project demonstrates how to deploy a dynamic web application on AWS using K
 ![Screenshot 2025-03-16 005525](https://github.com/user-attachments/assets/1cbf07a6-69fa-48ab-9933-0ffe524593f6)
 ![Screenshot 2025-03-16 005609](https://github.com/user-attachments/assets/8f48650d-7374-46ba-967b-38e23d882f81)
 
-
+---
 ### 10. Create Kubernetes Cluster with Control Plane and Worker Nodes
 - Used **eksctl** to create a Kubernetes cluster on AWS EKS, which included the control plane and worker nodes.
 - The worker nodes were automatically managed and scaled based on the configuration.
@@ -102,13 +106,13 @@ This project demonstrates how to deploy a dynamic web application on AWS using K
 ![Screenshot 2025-03-16 005757](https://github.com/user-attachments/assets/a880ebd2-8f42-4205-92a6-ca9484657204)
 ![Screenshot 2025-03-16 005743](https://github.com/user-attachments/assets/6701228a-eb86-44c0-98e7-e9ff7e92c35b)
 
-
+---
 ### 11. Create IAM Roles for EKS and Worker Nodes
 - Defined IAM roles for the EKS control plane and worker nodes to ensure secure access to AWS resources (e.g., EC2, S3, RDS).
   ![Screenshot 2025-03-16 005843](https://github.com/user-attachments/assets/3a92ab59-ff2e-424d-a991-b93091bf254c)
 ![Screenshot 2025-03-16 005903](https://github.com/user-attachments/assets/585ae0b1-8329-45d4-96e8-43527cc967a4)
 
-
+---
 ### 12. Create Kubernetes Manifest Files
 - Created Kubernetes YAML files for deploying the application:
   - **Deployment**: Defined the application's container, replicas, and environment variables.
@@ -121,7 +125,7 @@ This project demonstrates how to deploy a dynamic web application on AWS using K
   - **Secrets**: Managed sensitive data securely in the deployment.
 ![Screenshot 2025-03-16 010003](https://github.com/user-attachments/assets/2f97bc0f-94b3-4d37-b90b-a6d5c480f319)
 
-
+---
 ### 13. Deploy to EKS Cluster
 - Applied the Kubernetes manifests using `kubectl apply` to deploy the application to the EKS cluster.
 - Verified the application was running using `kubectl get pods` and `kubectl get services`.
@@ -134,7 +138,7 @@ This project demonstrates how to deploy a dynamic web application on AWS using K
 ![Screenshot 2025-03-16 011906](https://github.com/user-attachments/assets/e908c4b7-1cb0-47ba-8215-a58ca51f2f79)
 ![Screenshot 2025-03-16 011932](https://github.com/user-attachments/assets/a0f47ba2-7e33-40c8-80c5-84ec308d2493)
 
-
+---
 ### 14. Set up DNS with Route 53
 - Configured **Route 53** for DNS routing, pointing the domain to the public load balancer that exposes the application to the internet.
 ![Screenshot 2025-03-16 011746](https://github.com/user-attachments/assets/91c0b657-ec75-45d4-ab4a-5a86a51dc025)
