@@ -15,7 +15,6 @@ This project demonstrates how to deploy a dynamic web application on AWS using K
 - **Scripts**: All the scripts and configuration files used to automate the deployment process.
 - **Kubernetes Manifests**: YAML files used to deploy the application on EKS.
 - **Dockerfile**: The Dockerfile used to containerize the application.
-- **README**: Detailed instructions on how to deploy the application.
 
 ---
 
