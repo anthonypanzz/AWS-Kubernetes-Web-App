@@ -92,8 +92,6 @@ This project demonstrates how to deploy a dynamic web application on AWS using K
 - Configured the Kubernetes deployment to retrieve secrets from Secrets Manager securely
 ![Screenshot 2025-03-16 005525](https://github.com/user-attachments/assets/1cbf07a6-69fa-48ab-9933-0ffe524593f6)
 ![Screenshot 2025-03-16 005609](https://github.com/user-attachments/assets/8f48650d-7374-46ba-967b-38e23d882f81)
-![Screenshot 2025-03-16 005743](https://github.com/user-attachments/assets/6701228a-eb86-44c0-98e7-e9ff7e92c35b)
-
 
 
 ### 10. Create Kubernetes Cluster with Control Plane and Worker Nodes
@@ -102,6 +100,7 @@ This project demonstrates how to deploy a dynamic web application on AWS using K
   ![Screenshot 2025-03-16 005642](https://github.com/user-attachments/assets/6cce86a2-fb13-4580-98e2-e6ad00d1dd37)
 ![Screenshot 2025-03-16 005713](https://github.com/user-attachments/assets/1c286ca9-4859-4651-a8fd-43dc9f5d7040)
 ![Screenshot 2025-03-16 005757](https://github.com/user-attachments/assets/a880ebd2-8f42-4205-92a6-ca9484657204)
+![Screenshot 2025-03-16 005743](https://github.com/user-attachments/assets/6701228a-eb86-44c0-98e7-e9ff7e92c35b)
 
 
 ### 11. Create IAM Roles for EKS and Worker Nodes
