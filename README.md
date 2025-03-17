@@ -10,12 +10,6 @@
 
 This project demonstrates how to deploy a dynamic web application on AWS using Kubernetes and EKS (Elastic Kubernetes Service). The deployment process involves multiple steps, including setting up the networking environment, containerizing the application with Docker, configuring EKS for Kubernetes orchestration, and ensuring secure access to AWS resources. The application is connected to an RDS database and uses several AWS services for security, scalability, and monitoring.
 
-### Repository Contents
-- **Reference Diagram**: A visual representation of the architecture used for deploying the application.
-- **Scripts**: All the scripts and configuration files used to automate the deployment process.
-- **Kubernetes Manifests**: YAML files used to deploy the application on EKS.
-- **Dockerfile**: The Dockerfile used to containerize the application.
-
 ---
 
 ## Steps Involved
