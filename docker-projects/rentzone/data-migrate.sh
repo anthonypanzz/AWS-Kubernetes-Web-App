@@ -4,7 +4,7 @@ S3_URI=s3://apanz-rentzone-sql-files/V1__rentzone-db.sql
 RDS_ENDPOINT=dev-rds-db.cfk6o0o6qb85.us-east-1.rds.amazonaws.com
 RDS_DB_NAME=applicationdb
 RDS_DB_USERNAME=apanzz
-RDS_DB_PASSWORD=brookie22!
+
 
 # Update all packages
 sudo yum update -y
