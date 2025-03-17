@@ -77,7 +77,8 @@ This project demonstrates how to deploy a dynamic web application on AWS using K
 ### 7. Migrate Data into RDS Using Flyway
 - Utilized **Flyway** for database migration to ensure the RDS instance has the correct schema before application deployment.
 - Configured Flyway scripts to automate schema versioning.
-  ![Screenshot 2025-03-16 005337](https://github.com/user-attachments/assets/81201a3d-2b99-4d70-9319-efc2926c41c0)
+  ![Screenshot 2025-03-17 053547](https://github.com/user-attachments/assets/38b9dbe8-9f4e-4296-9d0f-d1784a6b5e51)
+
 
 
 ### 8. Install Command-Line Tools
