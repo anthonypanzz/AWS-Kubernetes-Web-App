@@ -1,5 +1,7 @@
 ![Alt text](Host_a_Dynamic_Web_App_on_AWS_with_Kubernetes_and_Amazon_EKS.gif)
 
+---
+
 # Dynamic Web App Deployment with Kubernetes on AWS EKS
 
 ## Overview
