@@ -136,7 +136,11 @@ This project demonstrates how to deploy a dynamic web application on AWS using K
 ### 14. Set up DNS with Route 53
 - Configured **Route 53** for DNS routing, pointing the domain to the public load balancer that exposes the application to the internet.
 ![Screenshot 2025-03-16 011746](https://github.com/user-attachments/assets/91c0b657-ec75-45d4-ab4a-5a86a51dc025)
-![Screenshot 2025-03-16 003822](https://github.com/user-attachments/assets/fd5e7c89-6f9f-4d94-b022-f45bf7789eb0)
+![Screenshot 2025-03-25 234412](https://github.com/user-attachments/assets/20bbf158-50e7-48b2-8690-28e429746255)
+![Screenshot 2025-03-25 234448](https://github.com/user-attachments/assets/42cb57c6-de97-4087-bba7-1bb27fdc243c)
+![Screenshot 2025-03-25 234510](https://github.com/user-attachments/assets/c85597d1-e5b6-426d-b84f-3409a319ef95)
+
+
 
 
 ---
